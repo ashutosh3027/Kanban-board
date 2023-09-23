@@ -111,3 +111,8 @@
 	height: 1.25rem;
 	width: 1.25rem;
 }
+@media (width<=750px) {
+	.home-content{
+		flex-direction: column;
+	}
+}
